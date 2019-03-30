@@ -1,0 +1,6 @@
+#wrapper{
+	display:block;
+}
+input, h2{
+	display:inline-block;
+}

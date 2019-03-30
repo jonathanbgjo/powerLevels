@@ -1,0 +1,14 @@
+<div id = "wrapper">
+<h1> Power Component</h1>
+
+<h2>Initial Power Level</h2>
+
+<input type="number" max="100" min="0" [(ngModel)]="initialPower">
+</div>
+
+<app-human [humanPower] = "initialPower"></app-human>
+<app-saiyan [saiyanPower] = "initialPower* 10"></app-saiyan>
+<app-super-saiyan [initialPower] = "initialPower"></app-super-saiyan>
+<app-super-saiyan-two [initialPower] = "initialPower"></app-super-saiyan-two>
+<app-super-saiyan-three [initialPower] = "initialPower"></app-super-saiyan-three>
+<app-super-saiyan-four [initialPower] = "initialPower"></app-super-saiyan-four>
